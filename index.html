@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&family=Caveat&family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-main container flex nav-resp">
+        
+           <a href="#" onclick="reload()"><h2>NEWS HUB</h2></a> 
+        
+            <div class="nav-links">
+                <ul class="resp-hide list">
+                   <li class="link item" id="sports" onclick="onNavItemClick('sports')">Sports</li>
+                   <li class="link item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                   <li class="link item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                   
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input resp-hide" placeholder="eg. Science">
+                <button id="search" class="search resp-hide">Search</button>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+</div>
+    <main>
+        <div class="card-container container flex" id="card-container" >
+            
+        </div>
+    </main>
+    <template id="template-news-card" >
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news image" id="news-img"/>
+
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">this is title</h3>
+                <h6 class="news-source" id="news-source"> End Gadget 15/09/2023</h6>
+                <p class="news-desc" id="news-desc">khjgfhjkjhvvnbm, hyyutryjukijhg</p>
+            </div>
+        </div>
+
+    </template>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
