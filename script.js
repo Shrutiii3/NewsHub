@@ -19,7 +19,7 @@ async function fetchNews(query) {
             },
         };
 
-        const res = await fetch(`${url}${encodedQuery}&apiKey=${API_KEY}`, requestOptions);
+        const res = await fetch(`${url}${encodedQuery}&apiKey=${API_KEY}`,requestOptions);
 
         if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
