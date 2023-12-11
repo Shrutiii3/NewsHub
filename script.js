@@ -1,4 +1,4 @@
-onst proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 const apiUrl = `${proxyUrl}https://newsapi.org/v2/everything?q=India&apiKey=ac87ac4111a9442ab52c73ce8000c659`;
 
 // Replace 'YourAppName' with your actual application name and '1.0' with your application version
