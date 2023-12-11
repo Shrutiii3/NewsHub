@@ -1,5 +1,5 @@
 const API_KEY = "900118d24ef049f8a0f86c0d13542fe5";
-const url = "https://newsapi.org/v2/everything";
+const url = "https://newsapi.org/v2/top-headlines";
 
 // Replace 'YourAppName' with your actual application name and '1.0' with your application version
 const userAgent = 'NewsHub/1.0';
