@@ -1,5 +1,5 @@
-const API_KEY = "900118d24ef049f8a0f86c0d13542fe5";
-const url = "https://newsapi.org/v2/everything?q=";
+onst proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+const apiUrl = `${proxyUrl}https://newsapi.org/v2/everything?q=India&apiKey=ac87ac4111a9442ab52c73ce8000c659`;
 
 // Replace 'YourAppName' with your actual application name and '1.0' with your application version
 const userAgent = 'NewsHub/1.0';
@@ -19,7 +19,7 @@ async function fetchNews(query) {
             },
         };
 
-        const res = await fetch(`${url}${encodedQuery}&apiKey=${API_KEY}`,requestOptions);
+        const res = await fetch(`${proxyUrl}${apiUrl}`, requestOptions);
 
         if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
