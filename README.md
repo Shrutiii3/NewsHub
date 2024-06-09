@@ -11,3 +11,5 @@ This project is a modern and dynamic news website that aggregates real-time news
 - CSS
 - JavaScript
 - NEWS API
+## ScreenShots
+![newsgithub](https://github.com/Shrutiii3/NewsHub/assets/124484769/d5be477a-f7c7-4e79-bd71-68d3c880197b)
