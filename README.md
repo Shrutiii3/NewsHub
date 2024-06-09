@@ -6,3 +6,8 @@ This project is a modern and dynamic news website that aggregates real-time news
 - User-Friendly Interface: Provides an intuitive and modern interface for easy navigation and reading.
 - News Categories: Allows users to explore news articles across various categories such as Technology, Sports, Business, Entertainment, and more.
 - Reliable Sources: Ensures that all news articles are sourced from trusted and reliable news providers.
+## Dependencies
+- HTML
+- CSS
+- JavaScript
+- NEWS API
