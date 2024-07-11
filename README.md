@@ -1,6 +1,6 @@
 # News Hub
 ## Overview
-NewsHub is an API based news website that fetches and displays latest news articles from various sources using the NewsAPI. The application allows users to search for news by keywords, and it also provides navigation links to filter news by categories such as Sports, Finance, and Politics.
+News Hub is an API based news website that fetches and displays latest news articles from various sources using the NewsAPI. The application allows users to search for news by keywords, and it also provides navigation links to filter news by categories such as Sports, Finance, and Politics.
 ## Features
 - Fetches news articles from the NewsAPI.
 - Displays news articles with images, titles, descriptions, and sources.
