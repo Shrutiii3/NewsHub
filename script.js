@@ -1,8 +1,7 @@
 const API_KEY = "ac87ac4111a9442ab52c73ce8000c659";
 const url = "https://newsapi.org/v2/everything?q=";
 
-// Replace 'YourAppName' with your actual application name and '1.0' with your application version
-const userAgent = 'NewsHub/1.0';
+
 
 window.addEventListener('load', () => fetchNews("India"));
 function reload(){
@@ -12,14 +11,9 @@ function reload(){
 async function fetchNews(query) {
     try {
         const encodedQuery = encodeURIComponent(query);
-        const requestOptions = {
-            method: 'GET',
-            headers: {
-                'User-Agent': userAgent,
-            },
-        };
+        
 
-        const res = await fetch(`${url}${encodedQuery}&apiKey=${API_KEY}`, requestOptions);
+        const res = await fetch(`${url}${encodedQuery}&apiKey=${API_KEY}`);
 
         if (!res.ok) {
             throw new Error(`HTTP error! Status: ${res.status}`);
